@@ -7,4 +7,6 @@ OBJECT_VELOCITY = 2.26
 KINETIC_ENERGY = physics.get_kinetic_energy(OBJECT_MASS, OBJECT_VELOCITY)
 
 if __name__ == "__main__":
-    print(f"The kinetic energy of a {OBJECT_MASS}kg item going at a velocity of {OBJECT_VELOCITY}m/s is {KINETIC_ENERGY}J")
+    print(f"Mass: {OBJECT_MASS}")
+    print(f"Velocty: {OBJECT_VELOCITY}")
+    print(f"Kinetic Energy: {KINETIC_ENERGY}")
